@@ -1,4 +1,22 @@
-.App {
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(fonts/SF-Pro-Display-Medium.otf);
 }
 
+body {
+    background: #dbdbdb;
+}
 
+.App {
+    background: white;
+    width: 375px;
+    padding: 24px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
