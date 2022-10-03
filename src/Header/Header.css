@@ -3,9 +3,10 @@
     grid-template-columns: 40px 1fr 40px;
 }
 
-.HeaderTitle {
+.Header_title {
     margin: 0;
-    font-size: 1rem;
-    line-height: 40px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 2.5rem;
     text-align: center;
 }
