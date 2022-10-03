@@ -1,0 +1,11 @@
+.Header {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+}
+
+.HeaderTitle {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 40px;
+    text-align: center;
+}

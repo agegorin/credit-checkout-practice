@@ -1,12 +1,10 @@
 import "./Checkout.css";
+import Header from "../Header/Header";
 
 const Checkout = () => {
 
   return <div className="Checkout">
-    <header>
-      <button>Back</button>
-      <h1>Checkout</h1>
-    </header>
+    <Header>Checkout details</Header>
     <div className="PaymentInfo">
       <span>For payment:</span>
       <span>$240,55</span>

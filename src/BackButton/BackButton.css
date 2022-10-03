@@ -1,0 +1,20 @@
+.BackButton {
+    height: 40px;
+    width: 40px;
+
+    padding: 0;
+
+    background: #eaecee url("backIco.svg") no-repeat 47% center;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.BackButton:hover, .BackButton:focus {
+    background-color: #cff1cf;
+}
+
+.BackButton:active {
+    background-color: #c7dac7;
+}
