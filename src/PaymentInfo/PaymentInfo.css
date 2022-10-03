@@ -1,0 +1,32 @@
+.PaymentInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    width: 100%;
+    margin-top: 40px;
+}
+
+.PaymentInfo_title {
+    color: #929DA9;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+}
+
+.PaymentInfo_money {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+    text-align: right;
+}
+
+.PaymentInfo_tax {
+    grid-column: span 2;
+
+    color: #929DA9;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: right;
+    line-height: 1.5rem;
+}

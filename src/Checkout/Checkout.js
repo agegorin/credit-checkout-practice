@@ -1,15 +1,14 @@
 import "./Checkout.css";
 import Header from "../Header/Header";
+import PaymentInfo from "../PaymentInfo/PaymentInfo";
 
 const Checkout = () => {
 
+  const amount = 240.55; // TODO should be get from store
+
   return <div className="Checkout">
     <Header>Checkout details</Header>
-    <div className="PaymentInfo">
-      <span>For payment:</span>
-      <span>$240,55</span>
-      <span>Including VAT (21%)</span>
-    </div>
+    <PaymentInfo amount={amount} />
     <div className="PaymentType">
       <label><input type="radio" name="paymentType" value="credit"/>Credit Card</label>
       <label><input type="radio" name="paymentType" value="applepay"/>Apple Pay</label>
